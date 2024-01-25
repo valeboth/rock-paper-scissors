@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rock Paper Scissors Game</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="./index.mjs" type="module" defer></script>
+  </head>
+  <body>
+    <main id="app" role="main">
+      <section aria-labelledby="game-title">
+        <h1 id="game-title">Rock Paper Scissors</h1>
+        <div id="result" aria-live="polite"></div>
+        <div id="score">Player: 0 | Computer: 0</div>
+        <div class="game-controls">
+          <button id="rock-button" aria-label="Select Rock">Rock</button>
+          <button id="paper-button" aria-label="Select Paper">Paper</button>
+          <button id="scissors-button" aria-label="Select Scissors">
+            Scissors
+          </button>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
